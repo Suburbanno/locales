@@ -1,0 +1,627 @@
+{
+  "_meta": {
+    "label": "English",
+    "flag": "us"
+  },
+  "banner": {
+    "alpha": {
+      "badge": "Early Alpha",
+      "text": "Borealise is in early development. Expect bugs, missing features, and breaking changes."
+    }
+  },
+  "common": {
+    "save": "Save",
+    "saving": "Saving...",
+    "cancel": "Cancel",
+    "back": "Back",
+    "delete": "Delete",
+    "edit": "Edit",
+    "loading": "Loading...",
+    "error": "An error occurred",
+    "success": "Success",
+    "user": "User"
+  },
+  "titles": {
+    "home": "Home",
+    "login": "Login",
+    "register": "Register",
+    "dashboard": "Dashboard",
+    "explore": "Explore Rooms",
+    "room": "Room",
+    "roomSettings": "Room Settings",
+    "settings": "Settings",
+    "shop": "Avatar Shop",
+    "friends": "Friends"
+  },
+  "auth": {
+    "login": "Login",
+    "logout": "Logout",
+    "register": "Register",
+    "email": "Email",
+    "password": "Password",
+    "username": "Username",
+    "confirmPassword": "Confirm Password",
+    "back": "back",
+    "welcomeTitle": "Welcome to Borealise",
+    "welcomeSubtitle": "The social music platform where you DJ, discover, and connect.",
+    "noAccount": "Don't have an account?",
+    "haveAccount": "Already have an account?",
+    "loginWithDiscord": "Login with Discord",
+    "or": "or",
+    "placeholders": {
+      "username": "Enter your username",
+      "usernameOrEmail": "Enter your username or e-mail",
+      "email": "Enter your e-mail",
+      "password": "Enter your password",
+      "createPassword": "Create a password",
+      "confirmPassword": "Confirm your password"
+    },
+    "errors": {
+      "required": "This field is required",
+      "invalidEmail": "Please enter a valid email address",
+      "passwordMismatch": "Passwords do not match",
+      "minLength": "Must be at least {min} characters",
+      "maxLength": "Must be at most {max} characters",
+      "fillAllFields": "Please fill in all fields",
+      "loginFailed": "Login failed. Please try again."
+    }
+  },
+  "errors": {
+    "UNKNOWN_ERROR": "An unknown error occurred",
+    "VALIDATION_ERROR": "Invalid input provided",
+    "NOT_FOUND": "Resource not found",
+    "FORBIDDEN": "Access denied",
+    "RATE_LIMITED": "Too many requests. Please try again later.",
+    "SERVER_ERROR": "Server error. Please try again later.",
+    "NETWORK_ERROR": "Unable to connect to server. Please check your connection.",
+
+    "AUTH_INVALID_CREDENTIALS": "Invalid username/email or password",
+    "AUTH_INVALID_EMAIL": "Please enter a valid email address",
+    "AUTH_INVALID_USERNAME": "Username must be 3-32 characters, alphanumeric and underscores only",
+    "AUTH_INVALID_PASSWORD": "Password must be 8-128 characters",
+    "AUTH_EMAIL_EXISTS": "This email is already registered",
+    "AUTH_USERNAME_EXISTS": "This username is already taken",
+    "AUTH_ACCOUNT_DISABLED": "Your account has been disabled",
+    "AUTH_TOKEN_REQUIRED": "Authentication required",
+    "AUTH_TOKEN_INVALID": "Your session has expired. Please log in again.",
+    "AUTH_TOKEN_EXPIRED": "Your session has expired. Please log in again.",
+    "AUTH_REFRESH_TOKEN_REQUIRED": "Refresh token required",
+    "AUTH_REFRESH_TOKEN_INVALID": "Invalid refresh token",
+    "AUTH_REFRESH_TOKEN_REVOKED": "Your session has been revoked. Please log in again.",
+    "AUTH_LOGIN_REQUIRED": "Please enter your username/email and password",
+    "AUTH_REGISTRATION_FAILED": "Registration failed. Please try again.",
+    "AUTH_LOGIN_FAILED": "Login failed. Please try again.",
+    "AUTH_LOGOUT_FAILED": "Logout failed. Please try again.",
+
+    "USER_NOT_FOUND": "User not found",
+    "USER_UPDATE_FAILED": "Failed to update profile",
+    "USER_DELETE_FAILED": "Failed to delete account",
+    "USER_INVALID_DISPLAY_NAME": "Display name must be 1-64 characters",
+    "USER_INVALID_BIO": "Bio must be 500 characters or less",
+
+    "PERMISSION_DENIED": "You don't have permission to do this",
+    "PERMISSION_ADMIN_REQUIRED": "Administrator access required",
+    "PERMISSION_MOD_REQUIRED": "Moderator access required",
+    "PERMISSION_CANNOT_MODIFY_SELF": "You cannot perform this action on yourself",
+    "PERMISSION_CANNOT_MODIFY_HIGHER_ROLE": "You cannot modify a user with equal or higher role",
+
+    "ROLE_INVALID": "Invalid role specified",
+
+    "ROOM_NOT_FOUND": "Room not found",
+    "ROOM_SLUG_EXISTS": "This room URL is already taken",
+    "ROOM_SLUG_INVALID": "Room URL must be 3-32 characters, lowercase letters, numbers, and hyphens only",
+    "ROOM_NAME_INVALID": "Room name must be 3-50 characters",
+    "ROOM_CREATE_FAILED": "Failed to create room. Please try again.",
+    "ROOM_JOIN_FAILED": "Failed to join room. Please try again.",
+    "ROOM_LEAVE_FAILED": "Failed to leave room. Please try again.",
+
+    "PLAYLIST_NOT_FOUND": "Playlist not found",
+    "PLAYLIST_CREATE_FAILED": "Failed to create playlist",
+    "PLAYLIST_UPDATE_FAILED": "Failed to update playlist",
+    "PLAYLIST_DELETE_FAILED": "Failed to delete playlist",
+    "PLAYLIST_ITEM_ADD_FAILED": "Failed to add item to playlist",
+    "PLAYLIST_ITEM_REMOVE_FAILED": "Failed to remove item from playlist",
+    "PLAYLIST_ITEM_LIMIT_REACHED": "Playlist has reached maximum items",
+    "PLAYLIST_ACTIVATE_FAILED": "Failed to activate playlist",
+
+    "IMPORT_INVALID_URL": "Invalid playlist URL",
+    "IMPORT_PLAYLIST_NOT_FOUND": "External playlist not found",
+    "IMPORT_PLAYLIST_PRIVATE": "This playlist is private or unavailable",
+    "IMPORT_FETCH_FAILED": "Failed to fetch playlist. Please try again.",
+    "IMPORT_NO_TRACKS": "No tracks found in playlist",
+    "IMPORT_UNSUPPORTED_SOURCE": "Unsupported playlist source",
+
+    "BOOTH_NOT_IN_WAITLIST": "You are not in the waitlist",
+    "BOOTH_ALREADY_IN_WAITLIST": "You are already in the waitlist",
+    "BOOTH_NO_DJ": "There is no DJ currently playing",
+    "BOOTH_NO_ACTIVE_PLAYLIST": "You need an active playlist to join the waitlist",
+    "BOOTH_PLAYLIST_EMPTY": "Your active playlist is empty",
+    "BOOTH_WAITLIST_FULL": "The waitlist is full",
+    "BOOTH_WAITLIST_LOCKED": "The waitlist is currently locked",
+
+    "WAITLIST_ALREADY_IN": "You are already in the waitlist",
+    "WAITLIST_ALREADY_DJING": "You are currently playing! Wait for your turn to end.",
+    "WAITLIST_LOCKED": "The waitlist is currently locked",
+    "WAITLIST_NO_PLAYLIST": "You need an active playlist to join the waitlist",
+    "WAITLIST_EMPTY_PLAYLIST": "Your active playlist is empty",
+    "WAITLIST_NOT_IN": "You are not in the waitlist",
+
+    "VOTE_ALREADY_VOTED": "You have already voted on this track",
+    "VOTE_CANNOT_VOTE_OWN": "You cannot vote on your own track",
+
+    "CHAT_MESSAGE_TOO_LONG": "Message is too long",
+    "CHAT_RATE_LIMITED": "You are sending messages too quickly"
+  },
+  "booth": {
+    "skip": {
+      "title": "Skip Options",
+      "message": "What would you like to do?",
+      "skipSong": "Skip to Next Song",
+      "leaveBooth": "Leave DJ Booth",
+      "skipHint": "Skip to next song to continue DJing, or leave the booth to let others play."
+    },
+    "grab": {
+      "title": "Grab Track",
+      "message": "Choose a playlist to add this track to:",
+      "active": "Active"
+    }
+  },
+  "notifications": {
+    "auth": {
+      "loginSuccess": "Welcome back, {username}!",
+      "registerSuccess": "Account created successfully! Welcome to Borealise.",
+      "logoutSuccess": "You have been logged out",
+      "sessionExpired": "Your session has expired. Please log in again."
+    },
+    "room": {
+      "joinSuccess": "Joined {roomName}",
+      "leaveSuccess": "Left room",
+      "createSuccess": "Room \"{roomName}\" created successfully"
+    },
+    "playlist": {
+      "createSuccess": "Playlist \"{name}\" created",
+      "deleteSuccess": "Playlist deleted",
+      "updateSuccess": "Playlist updated",
+      "activateSuccess": "Playlist \"{name}\" is now active",
+      "itemAdded": "Added to playlist",
+      "itemRemoved": "Removed from playlist",
+      "importSuccess": "Imported {count} tracks",
+      "importPartial": "Imported {imported} tracks ({skipped} skipped, {failed} failed)",
+      "importAllDuplicates": "All tracks are already in your playlist"
+    },
+    "booth": {
+      "joinedWaitlist": "You joined the waitlist",
+      "leftWaitlist": "You left the waitlist",
+      "nowPlaying": "You are now playing!",
+      "skipped": "Your turn was skipped"
+    },
+    "vote": {
+      "grabbed": "Track added to your playlist"
+    },
+    "connection": {
+      "connected": "Connected to server",
+      "disconnected": "Disconnected from server",
+      "reconnecting": "Reconnecting...",
+      "reconnected": "Reconnected to server"
+    },
+    "clipboard": {
+      "copied": "Copied to clipboard"
+    }
+  },
+  "rooms": {
+    "create": {
+      "title": "Create Room",
+      "submit": "Create Room",
+      "name": "Room Name",
+      "namePlaceholder": "My Awesome Room",
+      "slug": "Room URL",
+      "slugPlaceholder": "my-awesome-room",
+      "slugHint": "This will be the URL for your room. Only lowercase letters, numbers, and hyphens.",
+      "description": "Description",
+      "descriptionPlaceholder": "What's your room about? What kind of music will you play?",
+      "private": "Private Room",
+      "privateDesc": "Only invited users can join",
+      "nsfw": "NSFW Content",
+      "nsfwDesc": "Room may contain adult content",
+      "errors": {
+        "nameTooShort": "Name must be at least 3 characters",
+        "nameTooLong": "Name must be 50 characters or less",
+        "slugTooShort": "URL must be at least 3 characters",
+        "slugTooLong": "URL must be 32 characters or less",
+        "slugInvalid": "URL must start and end with a letter or number",
+        "failed": "Failed to create room. Please try again."
+      }
+    },
+    "leave": {
+      "title": "Leave Room?",
+      "message": "Are you sure you want to leave {roomName}?",
+      "joining": "You will be joining {roomName}.",
+      "confirm": "Leave Room"
+    }
+  },
+  "nav": {
+    "home": "Home",
+    "settings": "Settings",
+    "profile": "Profile",
+    "about": "About",
+    "privacy": "Privacy",
+    "terms": "Terms",
+    "discord": "Discord",
+    "haveAccount": "Have an account?"
+  },
+  "sidebar": {
+    "dashboard": "Dashboard",
+    "explore": "Explore",
+    "playlists": "Playlists",
+    "shop": "Avatar Shop",
+    "settings": "Settings",
+    "logout": "Logout",
+    "expand": "Expand sidebar",
+    "friends": "Friends",
+    "room": {
+      "stage": "Stage",
+      "waitlist": "Waitlist",
+      "users": "Users",
+      "history": "History",
+      "settings": "Room Settings"
+    }
+  },
+  "consent": {
+    "message": "We use cookies to enhance your experience. By continuing to visit this site you agree to our use of cookies.",
+    "accept": "Accept",
+    "decline": "Decline",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "cookies": "Cookie Policy"
+  },
+  "footer": {
+    "tagline": "Music is better together. Join rooms, share tracks, and connect with music lovers worldwide.",
+    "social": {
+      "twitter": "Twitter",
+      "github": "GitHub"
+    },
+    "sections": {
+      "product": {
+        "title": "Product",
+        "rooms": "Browse Rooms",
+        "features": "Features",
+        "pricing": "Pricing",
+        "download": "Download"
+      },
+      "company": {
+        "title": "Company",
+        "blog": "Blog",
+        "careers": "Careers",
+        "contact": "Contact"
+      },
+      "resources": {
+        "title": "Resources",
+        "help": "Help Center",
+        "docs": "Documentation",
+        "status": "System Status"
+      },
+      "legal": {
+        "title": "Legal",
+        "cookies": "Cookie Policy",
+        "licenses": "Licenses"
+      }
+    }
+  },
+  "settings": {
+    "tabs": {
+      "account": "Account",
+      "audio": "Audio",
+      "notifications": "Notifications",
+      "appearance": "Appearance",
+      "subscription": "Subscription"
+    },
+    "account": {
+      "title": "Account Settings",
+      "username": "Username",
+      "usernameHint": "Username cannot be changed",
+      "displayName": "Display Name",
+      "displayNamePlaceholder": "How should we call you?",
+      "email": "Email",
+      "emailHint": "Contact support to change your email",
+      "bio": "Bio",
+      "bioPlaceholder": "Tell us about yourself...",
+      "saveSuccess": "Profile updated successfully",
+      "logout": "Log Out",
+      "logoutConfirm": "Are you sure you want to log out?"
+    },
+    "audio": {
+      "title": "Audio Settings",
+      "masterVolume": "Master Volume",
+      "quality": "Audio Quality",
+      "qualityLow": "Low (128kbps)",
+      "qualityMedium": "Medium (256kbps)",
+      "qualityHigh": "High (320kbps)",
+      "autoPlay": "Auto-play when joining rooms"
+    },
+    "notifications": {
+      "title": "Notification Settings",
+      "chatMentions": "Chat mentions",
+      "mentionSound": "Play sound on mention",
+      "songGrabs": "Song grabs",
+      "waitlistUpdates": "Waitlist updates"
+    },
+    "appearance": {
+      "title": "Appearance",
+      "showTimestamps": "Show chat timestamps",
+      "enlargedVideo": "Enlarged video player by default"
+    },
+    "subscription": {
+      "title": "Borealise Plus",
+      "activePlan": "Active Plan",
+      "noPlan": "No active subscription",
+      "monthly": "Monthly",
+      "yearly": "Yearly",
+      "yearlyBadge": "Save 20%",
+      "renewsOn": "Renews on {date}",
+      "cancelsOn": "Cancels on {date}",
+      "upgradeTitle": "Borealise Plus",
+      "upgradeSubtitle": "Unlock exclusive avatars, a supporter badge, and more.",
+      "choosePlan": "Choose a plan",
+      "paymentTitle": "Payment Details",
+      "payButton": "Subscribe",
+      "manageButton": "Manage Billing",
+      "backToPlan": "Back",
+      "perMonth": "/ mo",
+      "perYear": "/ yr",
+      "loadError": "Failed to load subscription status.",
+      "intentError": "Could not initiate payment. Please try again.",
+      "paymentError": "Payment failed. Please check your details.",
+      "portalError": "Failed to open billing portal. Please try again.",
+      "perks": {
+        "avatars": "Exclusive premium avatars",
+        "badge": "Supporter badge on your profile",
+        "future": "Early access to new features"
+      }
+    }
+  },
+  "stage": {
+    "waitingForDJ": "Waiting for DJ...",
+    "enlargeVideo": "Enlarge video",
+    "minimizeVideo": "Minimize video"
+  },
+  "chat": {
+    "title": "Live Chat",
+    "placeholder": "Send a message...",
+    "mentionUser": "Mention user",
+    "tabChat": "Chat",
+    "tabWaitlist": "Waitlist",
+    "tabUsers": "Users",
+    "empty": "No messages yet. Say hi!",
+    "waitlistEmpty": "The waitlist is empty.",
+    "usersEmpty": "No one else is here yet.",
+    "nowPlaying": "Now Playing",
+    "searchEmoji": "Search emoji...",
+    "paused": "Chat paused — scroll down to resume"
+  },
+  "dashboard": {
+    "welcome": "Welcome back,",
+    "subtitle": "Ready to discover some music?",
+    "exploreRooms": "Explore Rooms",
+    "createRoom": "Create Room",
+    "featuredRooms": "Featured Rooms",
+    "seeAll": "See all",
+    "yourRooms": "Your Rooms",
+    "noRooms": "You haven't joined any rooms yet",
+    "findRooms": "Find rooms to join",
+    "recentActivity": "Recent Activity",
+    "listening": "listening"
+  },
+  "explore": {
+    "searchPlaceholder": "Search rooms...",
+    "noRoomsFound": "No rooms found",
+    "tryDifferentSearch": "Try a different search or filter",
+    "live": "LIVE",
+    "filters": {
+      "all": "All",
+      "electronic": "Electronic",
+      "chill": "Chill",
+      "hiphop": "Hip Hop",
+      "rock": "Rock",
+      "pop": "Pop",
+      "lofi": "Lo-Fi",
+      "music": "Music"
+    }
+  },
+  "playlists": {
+    "title": "My Playlists",
+    "newPlaylist": "New Playlist",
+    "loading": "Loading playlists...",
+    "noPlaylists": "No playlists yet",
+    "createFirst": "Create your first playlist to start adding music",
+    "selectPlaylist": "Select a playlist to view its contents",
+    "songCount": "{count} songs",
+    "active": "Active",
+    "setActive": "Set as Active",
+    "shuffle": "Shuffle",
+    "addSongs": "Add Songs",
+    "import": "Import",
+    "searchPlaceholder": "Search YouTube or SoundCloud...",
+    "searching": "Searching...",
+    "noSongs": "No songs in this playlist",
+    "clickAddSongs": "Click \"Add Songs\" to search and add music",
+    "noResults": "No results found",
+    "unknownArtist": "Unknown Artist",
+    "createPlaylist": "Create Playlist",
+    "playlistName": "Playlist Name",
+    "playlistNamePlaceholder": "My Awesome Playlist",
+    "create": "Create",
+    "rename": "Rename",
+    "renamePlaylist": "Rename Playlist",
+    "newName": "New Name",
+    "confirmDelete": "Delete \"{name}\"? This cannot be undone."
+  },
+  "player": {
+    "noPlaylist": "No Playlist",
+    "noTracksQueued": "No tracks queued",
+    "next": "Next:",
+    "joinWaitlist": "Join Waitlist",
+    "leaveWaitlist": "Leave Waitlist",
+    "skip": "Skip",
+    "isPlaying": "is playing:",
+    "estimatedWait": "Est. wait: {time}"
+  },
+  "home": {
+    "hero": {
+      "title": "Music is better",
+      "titleBreak": "together.",
+      "subtitle": "Join rooms, take turns as DJ, discover new music, and connect with people who share your taste. The social listening experience, reborn.",
+      "cta": "Get Started Free",
+      "learnMore": "Learn More"
+    },
+    "features": {
+      "title": "Remember when music was social?",
+      "subtitle": "Borealise brings back the magic of shared music experiences. Create or join rooms, take turns playing tracks, chat with fellow music lovers, and discover your next favorite song through real human connection.",
+      "rooms": {
+        "title": "Community Rooms",
+        "description": "Join themed rooms or create your own. From indie rock to lo-fi beats, find your tribe and share the music you love."
+      },
+      "dj": {
+        "title": "Take the DJ Booth",
+        "description": "Queue up, grab the decks, and play for the room. Get real-time reactions with woots and mehs from your audience."
+      },
+      "chat": {
+        "title": "Live Chat",
+        "description": "React to tracks in real-time, share your thoughts, make friends, and build lasting connections around music."
+      }
+    },
+    "howItWorks": {
+      "title": "How it works",
+      "subtitle": "Getting started is simple. Join the community in seconds.",
+      "step1": {
+        "title": "Create Account",
+        "description": "Sign up for free and customize your avatar."
+      },
+      "step2": {
+        "title": "Find a Room",
+        "description": "Browse rooms by genre or create your own community."
+      },
+      "step3": {
+        "title": "Build Playlists",
+        "description": "Add tracks from YouTube and SoundCloud to your playlist."
+      },
+      "step4": {
+        "title": "Start DJing",
+        "description": "Join the waitlist, play your tracks, and earn recognition."
+      }
+    },
+    "why": {
+      "title": "Built for the community,",
+      "titleBreak": "by the community.",
+      "text1": "We grew up on platforms like plug.dj and turntable.fm. When they shut down, we lost more than just a website - we lost our communities, our friendships, and our shared musical journeys.",
+      "text2": "Borealise is our answer. A modern, reliable platform built with the latest technology to ensure it stays online. No ads interrupting your vibe. No algorithms deciding what you hear. Just you, your friends, and the music.",
+      "features": {
+        "free": "Free to use, forever",
+        "integration": "YouTube & SoundCloud integration",
+        "avatars": "Customizable avatars & profiles",
+        "mobile": "Mobile-friendly design"
+      },
+      "preview": "Preview coming soon"
+    },
+    "cta": {
+      "title": "Ready to rediscover music?",
+      "subtitle": "Join thousands of music lovers already sharing their favorite tracks. Your next favorite song is waiting.",
+      "button": "Join Borealise Today"
+    },
+    "footer": {
+      "copyright": "Borealise. All rights reserved."
+    }
+  },
+  "shop": {
+    "title": "Avatar Shop",
+    "level": "Level",
+    "free": "Free",
+    "unlocked": "Unlocked",
+    "equipped": "Equipped",
+    "clickToUnlock": "Click to unlock",
+    "levelRequired": "Level {level} required",
+    "subscriptionRequired": "Subscription required",
+    "freeAvatars": "Free Avatars",
+    "freeAvatarsDesc": "These avatars are available to everyone at no cost.",
+    "premiumAvatars": "Premium Avatars",
+    "premiumAvatarsDesc": "Exclusive avatars available to subscribers.",
+    "unlockTitle": "Unlock Avatar",
+    "unlockLevelDesc": "Unlock {id} by reaching level {level}.",
+    "unlockSubDesc": "Unlock {id} with an active subscription.",
+    "unlock": "Unlock",
+    "unlocking": "Unlocking...",
+    "tabs": {
+      "free": "Free",
+      "level": "Level",
+      "subscription": "Subscription"
+    }
+  },
+  "roomSettings": {
+    "title": "Room Settings",
+    "notHost": "Only the host or co-host can edit room settings.",
+    "sectionGeneral": "General",
+    "sectionAccess": "Access",
+    "sectionWaitlist": "Waitlist",
+    "fieldName": "Room Name",
+    "fieldNamePlaceholder": "My Awesome Room",
+    "fieldDescription": "Description",
+    "fieldDescriptionPlaceholder": "What's your room about?",
+    "fieldWelcome": "Welcome Message",
+    "fieldWelcomePlaceholder": "Welcome to the room!",
+    "fieldWelcomeHint": "Shown to users when they join the room.",
+    "fieldMinChatLevel": "Minimum Chat Level",
+    "fieldMinChatLevelHint": "Users below this level cannot send messages. Set to 0 to allow everyone.",
+    "fieldPrivate": "Private Room",
+    "fieldPrivateDesc": "Only invited users can join.",
+    "fieldNsfw": "NSFW Content",
+    "fieldNsfwDesc": "Room may contain adult content.",
+    "fieldWaitlistLocked": "Lock Waitlist",
+    "fieldWaitlistLockedDesc": "Prevent new users from joining the DJ queue.",
+    "fieldWaitlistCycle": "Cycle Waitlist",
+    "fieldWaitlistCycleDesc": "DJs are moved to the back of the queue after their turn.",
+    "saveSuccess": "Room settings saved."
+  },
+  "roles": {
+    "host": "Host",
+    "cohost": "Co-Host",
+    "manager": "Manager",
+    "bouncer": "Bouncer",
+    "residentDJ": "Resident DJ",
+    "user": "User"
+  },
+  "globalRoles": {
+    "owner": "Owner",
+    "admin": "Admin",
+    "moderator": "Moderator"
+  },
+  "userCard": {
+    "viewProfile": "View Profile",
+    "mention": "Mention",
+    "addFriend": "Add Friend",
+    "cancelRequest": "Cancel Request",
+    "acceptRequest": "Accept Request",
+    "removeFriend": "Remove Friend",
+    "currentlyDJing": "Currently DJing",
+    "newSubscriber": "Subscriber",
+    "subscriber1Month": "Subscriber for 1 month",
+    "subscriberNMonths": "Subscriber for {n} months"
+  },
+  "friends": {
+    "title": "Friends",
+    "search": "Search by username...",
+    "noFriends": "No friends yet",
+    "noFriendsHint": "Search for users and send them a friend request!",
+    "pendingRequests": "Pending Requests",
+    "pendingSent": "Sent Requests",
+    "noPending": "No pending requests",
+    "accept": "Accept",
+    "decline": "Decline",
+    "cancel": "Cancel",
+    "remove": "Remove",
+    "addFriend": "Add Friend",
+    "searchPlaceholder": "Find a user by username...",
+    "notFound": "User not found",
+    "alreadyFriends": "Already friends",
+    "requestSent": "Request sent",
+    "requestReceived": "Wants to be your friend"
+  }
+}

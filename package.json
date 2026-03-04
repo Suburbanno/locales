@@ -1,0 +1,5 @@
+{
+  "scripts": {
+    "verify:locales": "node scripts/verify-locales.js"
+  }
+}

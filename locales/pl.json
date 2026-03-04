@@ -1,0 +1,627 @@
+{
+  "_meta": {
+    "label": "Polski",
+    "flag": "pl"
+  },
+  "banner": {
+    "alpha": {
+      "badge": "Wczesna Alpha",
+      "text": "Borealise jest we wczesnej fazie rozwoju. Spodziewaj się błędów, brakujących funkcji i zmian."
+    }
+  },
+  "common": {
+    "save": "Zapisz",
+    "saving": "Zapisywanie...",
+    "cancel": "Anuluj",
+    "back": "Wstecz",
+    "delete": "Usuń",
+    "edit": "Edytuj",
+    "loading": "Ładowanie...",
+    "error": "Wystąpił błąd",
+    "success": "Sukces",
+    "user": "Użytkownik"
+  },
+  "titles": {
+    "home": "Strona główna",
+    "login": "Logowanie",
+    "register": "Rejestracja",
+    "dashboard": "Panel",
+    "explore": "Odkrywaj pokoje",
+    "room": "Pokój",
+    "roomSettings": "Ustawienia pokoju",
+    "settings": "Ustawienia",
+    "shop": "Sklep z awatarami",
+    "friends": "Znajomi"
+  },
+  "auth": {
+    "login": "Zaloguj się",
+    "logout": "Wyloguj się",
+    "register": "Zarejestruj się",
+    "email": "E-mail",
+    "password": "Hasło",
+    "username": "Nazwa użytkownika",
+    "confirmPassword": "Potwierdź hasło",
+    "back": "wstecz",
+    "welcomeTitle": "Witamy w Borealise",
+    "welcomeSubtitle": "Platforma muzyki społecznościowej, gdzie DJ'ujesz, odkrywasz i łączysz się.",
+    "noAccount": "Nie masz konta?",
+    "haveAccount": "Masz już konto?",
+    "loginWithDiscord": "Zaloguj się przez Discord",
+    "or": "lub",
+    "placeholders": {
+      "username": "Wprowadź swoją nazwę użytkownika",
+      "usernameOrEmail": "Wprowadź swoją nazwę użytkownika lub e-mail",
+      "email": "Wprowadź swój e-mail",
+      "password": "Wprowadź swoje hasło",
+      "createPassword": "Utwórz hasło",
+      "confirmPassword": "Potwierdź swoje hasło"
+    },
+    "errors": {
+      "required": "To pole jest wymagane",
+      "invalidEmail": "Proszę wprowadzić poprawny adres e-mail",
+      "passwordMismatch": "Hasła nie pasują do siebie",
+      "minLength": "Musi mieć co najmniej {min} znaków",
+      "maxLength": "Może mieć maksymalnie {max} znaków",
+      "fillAllFields": "Proszę wypełnić wszystkie pola",
+      "loginFailed": "Logowanie nie powiodło się. Spróbuj ponownie."
+    }
+  },
+  "errors": {
+    "UNKNOWN_ERROR": "Wystąpił nieznany błąd",
+    "VALIDATION_ERROR": "Nieprawidłowe dane wejściowe",
+    "NOT_FOUND": "Zasób nie został znaleziony",
+    "FORBIDDEN": "Brak dostępu",
+    "RATE_LIMITED": "Zbyt wiele żądań. Spróbuj ponownie później.",
+    "SERVER_ERROR": "Błąd serwera. Spróbuj ponownie później.",
+    "NETWORK_ERROR": "Nie można połączyć się z serwerem. Sprawdź połączenie.",
+
+    "AUTH_INVALID_CREDENTIALS": "Nieprawidłowa nazwa użytkownika/e-mail lub hasło",
+    "AUTH_INVALID_EMAIL": "Proszę wprowadzić poprawny adres e-mail",
+    "AUTH_INVALID_USERNAME": "Nazwa użytkownika musi mieć 3-32 znaki, tylko litery, cyfry i podkreślenia",
+    "AUTH_INVALID_PASSWORD": "Hasło musi mieć 8-128 znaków",
+    "AUTH_EMAIL_EXISTS": "Ten adres e-mail jest już zarejestrowany",
+    "AUTH_USERNAME_EXISTS": "Ta nazwa użytkownika jest już zajęta",
+    "AUTH_ACCOUNT_DISABLED": "Twoje konto zostało wyłączone",
+    "AUTH_TOKEN_REQUIRED": "Wymagane uwierzytelnienie",
+    "AUTH_TOKEN_INVALID": "Twoja sesja wygasła. Zaloguj się ponownie.",
+    "AUTH_TOKEN_EXPIRED": "Twoja sesja wygasła. Zaloguj się ponownie.",
+    "AUTH_REFRESH_TOKEN_REQUIRED": "Wymagany token odświeżania",
+    "AUTH_REFRESH_TOKEN_INVALID": "Nieprawidłowy token odświeżania",
+    "AUTH_REFRESH_TOKEN_REVOKED": "Twoja sesja została unieważniona. Zaloguj się ponownie.",
+    "AUTH_LOGIN_REQUIRED": "Proszę wprowadzić nazwę użytkownika/e-mail i hasło",
+    "AUTH_REGISTRATION_FAILED": "Rejestracja nie powiodła się. Spróbuj ponownie.",
+    "AUTH_LOGIN_FAILED": "Logowanie nie powiodło się. Spróbuj ponownie.",
+    "AUTH_LOGOUT_FAILED": "Wylogowanie nie powiodło się. Spróbuj ponownie.",
+
+    "USER_NOT_FOUND": "Użytkownik nie został znaleziony",
+    "USER_UPDATE_FAILED": "Nie udało się zaktualizować profilu",
+    "USER_DELETE_FAILED": "Nie udało się usunąć konta",
+    "USER_INVALID_DISPLAY_NAME": "Nazwa wyświetlana musi mieć 1-64 znaki",
+    "USER_INVALID_BIO": "Opis może mieć maksymalnie 500 znaków",
+
+    "PERMISSION_DENIED": "Nie masz uprawnień do wykonania tej akcji",
+    "PERMISSION_ADMIN_REQUIRED": "Wymagany dostęp administratora",
+    "PERMISSION_MOD_REQUIRED": "Wymagany dostęp moderatora",
+    "PERMISSION_CANNOT_MODIFY_SELF": "Nie możesz wykonać tej akcji na sobie",
+    "PERMISSION_CANNOT_MODIFY_HIGHER_ROLE": "Nie możesz modyfikować użytkownika o równej lub wyższej roli",
+
+    "ROLE_INVALID": "Podano nieprawidłową rolę",
+
+    "ROOM_NOT_FOUND": "Pokój nie został znaleziony",
+    "ROOM_SLUG_EXISTS": "Ten adres URL pokoju jest już zajęty",
+    "ROOM_SLUG_INVALID": "Adres URL pokoju musi mieć 3-32 znaki, tylko małe litery, cyfry i myślniki",
+    "ROOM_NAME_INVALID": "Nazwa pokoju musi mieć 3-50 znaków",
+    "ROOM_CREATE_FAILED": "Nie udało się utworzyć pokoju. Spróbuj ponownie.",
+    "ROOM_JOIN_FAILED": "Nie udało się dołączyć do pokoju. Spróbuj ponownie.",
+    "ROOM_LEAVE_FAILED": "Nie udało się opuścić pokoju. Spróbuj ponownie.",
+
+    "PLAYLIST_NOT_FOUND": "Playlista nie została znaleziona",
+    "PLAYLIST_CREATE_FAILED": "Nie udało się utworzyć playlisty",
+    "PLAYLIST_UPDATE_FAILED": "Nie udało się zaktualizować playlisty",
+    "PLAYLIST_DELETE_FAILED": "Nie udało się usunąć playlisty",
+    "PLAYLIST_ITEM_ADD_FAILED": "Nie udało się dodać elementu do playlisty",
+    "PLAYLIST_ITEM_REMOVE_FAILED": "Nie udało się usunąć elementu z playlisty",
+    "PLAYLIST_ITEM_LIMIT_REACHED": "Playlista osiągnęła maksymalną liczbę elementów",
+    "PLAYLIST_ACTIVATE_FAILED": "Nie udało się aktywować playlisty",
+
+    "IMPORT_INVALID_URL": "Nieprawidłowy adres URL playlisty",
+    "IMPORT_PLAYLIST_NOT_FOUND": "Zewnętrzna playlista nie została znaleziona",
+    "IMPORT_PLAYLIST_PRIVATE": "Ta playlista jest prywatna lub niedostępna",
+    "IMPORT_FETCH_FAILED": "Nie udało się pobrać playlisty. Spróbuj ponownie.",
+    "IMPORT_NO_TRACKS": "Nie znaleziono utworów w playliście",
+    "IMPORT_UNSUPPORTED_SOURCE": "Nieobsługiwane źródło playlisty",
+
+    "BOOTH_NOT_IN_WAITLIST": "Nie jesteś na liście oczekujących",
+    "BOOTH_ALREADY_IN_WAITLIST": "Jesteś już na liście oczekujących",
+    "BOOTH_NO_DJ": "Obecnie nie gra żaden DJ",
+    "BOOTH_NO_ACTIVE_PLAYLIST": "Potrzebujesz aktywnej playlisty, aby dołączyć do kolejki",
+    "BOOTH_PLAYLIST_EMPTY": "Twoja aktywna playlista jest pusta",
+    "BOOTH_WAITLIST_FULL": "Lista oczekujących jest pełna",
+    "BOOTH_WAITLIST_LOCKED": "Lista oczekujących jest obecnie zablokowana",
+
+    "WAITLIST_ALREADY_IN": "Jesteś już na liście oczekujących",
+    "WAITLIST_ALREADY_DJING": "Aktualnie grasz! Poczekaj na koniec swojej kolejki.",
+    "WAITLIST_LOCKED": "Lista oczekujących jest obecnie zablokowana",
+    "WAITLIST_NO_PLAYLIST": "Potrzebujesz aktywnej playlisty, aby dołączyć do kolejki",
+    "WAITLIST_EMPTY_PLAYLIST": "Twoja aktywna playlista jest pusta",
+    "WAITLIST_NOT_IN": "Nie jesteś na liście oczekujących",
+
+    "VOTE_ALREADY_VOTED": "Już zagłosowałeś na ten utwór",
+    "VOTE_CANNOT_VOTE_OWN": "Nie możesz głosować na własny utwór",
+
+    "CHAT_MESSAGE_TOO_LONG": "Wiadomość jest za długa",
+    "CHAT_RATE_LIMITED": "Wysyłasz wiadomości zbyt szybko"
+  },
+  "booth": {
+    "skip": {
+      "title": "Opcje pominięcia",
+      "message": "Co chcesz zrobić?",
+      "skipSong": "Pomiń do następnego utworu",
+      "leaveBooth": "Opuść stanowisko DJ-a",
+      "skipHint": "Pomiń do następnego utworu, aby kontynuować DJ-owanie, lub opuść stanowisko, aby pozwolić grać innym."
+    },
+    "grab": {
+      "title": "Pobierz utwór",
+      "message": "Wybierz playlistę, do której chcesz dodać ten utwór:",
+      "active": "Aktywna"
+    }
+  },
+  "notifications": {
+    "auth": {
+      "loginSuccess": "Witaj ponownie, {username}!",
+      "registerSuccess": "Konto utworzone pomyślnie! Witamy w Borealise.",
+      "logoutSuccess": "Zostałeś wylogowany",
+      "sessionExpired": "Twoja sesja wygasła. Zaloguj się ponownie."
+    },
+    "room": {
+      "joinSuccess": "Dołączono do {roomName}",
+      "leaveSuccess": "Opuszczono pokój",
+      "createSuccess": "Pokój \"{roomName}\" utworzony pomyślnie"
+    },
+    "playlist": {
+      "createSuccess": "Playlista \"{name}\" utworzona",
+      "deleteSuccess": "Playlista usunięta",
+      "updateSuccess": "Playlista zaktualizowana",
+      "activateSuccess": "Playlista \"{name}\" jest teraz aktywna",
+      "itemAdded": "Dodano do playlisty",
+      "itemRemoved": "Usunięto z playlisty",
+      "importSuccess": "Zaimportowano {count} utworów",
+      "importPartial": "Zaimportowano {imported} utworów ({skipped} pominięto, {failed} nieudanych)",
+      "importAllDuplicates": "Wszystkie utwory są już na twojej playliście"
+    },
+    "booth": {
+      "joinedWaitlist": "Dołączyłeś do kolejki",
+      "leftWaitlist": "Opuściłeś kolejkę",
+      "nowPlaying": "Teraz grasz!",
+      "skipped": "Twoja kolej została pominięta"
+    },
+    "vote": {
+      "grabbed": "Utwór dodany do twojej playlisty"
+    },
+    "connection": {
+      "connected": "Połączono z serwerem",
+      "disconnected": "Rozłączono z serwerem",
+      "reconnecting": "Ponowne łączenie...",
+      "reconnected": "Ponownie połączono z serwerem"
+    },
+    "clipboard": {
+      "copied": "Skopiowano do schowka"
+    }
+  },
+  "rooms": {
+    "create": {
+      "title": "Utwórz pokój",
+      "submit": "Utwórz pokój",
+      "name": "Nazwa pokoju",
+      "namePlaceholder": "Mój super pokój",
+      "slug": "Adres URL pokoju",
+      "slugPlaceholder": "moj-super-pokoj",
+      "slugHint": "To będzie adres URL twojego pokoju. Tylko małe litery, cyfry i myślniki.",
+      "description": "Opis",
+      "descriptionPlaceholder": "O czym jest twój pokój? Jaką muzykę będziesz grać?",
+      "private": "Prywatny pokój",
+      "privateDesc": "Tylko zaproszeni użytkownicy mogą dołączyć",
+      "nsfw": "Treści NSFW",
+      "nsfwDesc": "Pokój może zawierać treści dla dorosłych",
+      "errors": {
+        "nameTooShort": "Nazwa musi mieć co najmniej 3 znaki",
+        "nameTooLong": "Nazwa może mieć maksymalnie 50 znaków",
+        "slugTooShort": "URL musi mieć co najmniej 3 znaki",
+        "slugTooLong": "URL może mieć maksymalnie 32 znaki",
+        "slugInvalid": "URL musi zaczynać i kończyć się literą lub cyfrą",
+        "failed": "Nie udało się utworzyć pokoju. Spróbuj ponownie."
+      }
+    },
+    "leave": {
+      "title": "Opuścić pokój?",
+      "message": "Czy na pewno chcesz opuścić {roomName}?",
+      "joining": "Dołączysz do {roomName}.",
+      "confirm": "Opuść pokój"
+    }
+  },
+  "nav": {
+    "home": "Strona główna",
+    "settings": "Ustawienia",
+    "profile": "Profil",
+    "about": "O nas",
+    "privacy": "Prywatność",
+    "terms": "Regulamin",
+    "discord": "Discord",
+    "haveAccount": "Masz już konto?"
+  },
+  "consent": {
+    "message": "Używamy plików cookie, aby poprawić Twoje doświadczenia. Kontynuując odwiedzanie tej strony, zgadzasz się na używanie przez nas plików cookie.",
+    "accept": "Akceptuję",
+    "decline": "Odrzucam",
+    "privacy": "Polityka prywatności",
+    "terms": "Regulamin",
+    "cookies": "Polityka cookies"
+  },
+  "footer": {
+    "tagline": "Muzyka jest lepsza razem. Dołącz do pokojów, dziel się utworami i łącz się z miłośnikami muzyki na całym świecie.",
+    "social": {
+      "twitter": "Twitter",
+      "github": "GitHub"
+    },
+    "sections": {
+      "product": {
+        "title": "Produkt",
+        "rooms": "Przeglądaj pokoje",
+        "features": "Funkcje",
+        "pricing": "Cennik",
+        "download": "Pobierz"
+      },
+      "company": {
+        "title": "Firma",
+        "blog": "Blog",
+        "careers": "Kariera",
+        "contact": "Kontakt"
+      },
+      "resources": {
+        "title": "Zasoby",
+        "help": "Centrum pomocy",
+        "docs": "Dokumentacja",
+        "status": "Status systemu"
+      },
+      "legal": {
+        "title": "Prawne",
+        "cookies": "Polityka cookies",
+        "licenses": "Licencje"
+      }
+    }
+  },
+  "home": {
+    "hero": {
+      "title": "Muzyka jest lepsza",
+      "titleBreak": "razem.",
+      "subtitle": "Dołącz do pokojów, wymieniaj się jako DJ, odkrywaj nową muzykę i łącz się z ludźmi o podobnych gustach. Społeczne słuchanie muzyki, odrodzone.",
+      "cta": "Zacznij za darmo",
+      "learnMore": "Dowiedz się więcej"
+    },
+    "features": {
+      "title": "Pamiętasz, gdy muzyka była społeczna?",
+      "subtitle": "Borealise przywraca magię wspólnych doświadczeń muzycznych. Twórz lub dołączaj do pokojów, wymieniaj się utworami, rozmawiaj z innymi miłośnikami muzyki i odkrywaj swoją następną ulubioną piosenkę przez prawdziwe ludzkie połączenie.",
+      "rooms": {
+        "title": "Pokoje społeczności",
+        "description": "Dołącz do tematycznych pokojów lub stwórz własny. Od indie rocka po lo-fi beaty, znajdź swoją społeczność i dziel się muzyką, którą kochasz."
+      },
+      "dj": {
+        "title": "Zajmij stanowisko DJ-a",
+        "description": "Ustaw się w kolejce, chwyć za mikser i graj dla pokoju. Otrzymuj reakcje na żywo - woots i mehs od swojej publiczności."
+      },
+      "chat": {
+        "title": "Czat na żywo",
+        "description": "Reaguj na utwory w czasie rzeczywistym, dziel się przemyśleniami, poznawaj przyjaciół i buduj trwałe więzi wokół muzyki."
+      }
+    },
+    "howItWorks": {
+      "title": "Jak to działa",
+      "subtitle": "Rozpoczęcie jest proste. Dołącz do społeczności w kilka sekund.",
+      "step1": {
+        "title": "Utwórz konto",
+        "description": "Zarejestruj się za darmo i dostosuj swój awatar."
+      },
+      "step2": {
+        "title": "Znajdź pokój",
+        "description": "Przeglądaj pokoje według gatunku lub stwórz własną społeczność."
+      },
+      "step3": {
+        "title": "Twórz playlisty",
+        "description": "Dodawaj utwory z YouTube i SoundCloud do swojej playlisty."
+      },
+      "step4": {
+        "title": "Zacznij DJ-ować",
+        "description": "Dołącz do kolejki, graj swoje utwory i zdobywaj uznanie."
+      }
+    },
+    "why": {
+      "title": "Stworzone dla społeczności,",
+      "titleBreak": "przez społeczność.",
+      "text1": "Dorastaliśmy na platformach takich jak plug.dj i turntable.fm. Kiedy zostały zamknięte, straciliśmy więcej niż tylko stronę internetową - straciliśmy nasze społeczności, przyjaźnie i wspólne muzyczne podróże.",
+      "text2": "Borealise to nasza odpowiedź. Nowoczesna, niezawodna platforma zbudowana z najnowszą technologią, aby zapewnić jej ciągłe działanie. Żadnych reklam przerywających twój vibe. Żadnych algorytmów decydujących co słyszysz. Tylko ty, twoi przyjaciele i muzyka.",
+      "features": {
+        "free": "Darmowe na zawsze",
+        "integration": "Integracja z YouTube i SoundCloud",
+        "avatars": "Personalizowane awatary i profile",
+        "mobile": "Design przyjazny dla urządzeń mobilnych"
+      },
+      "preview": "Podgląd wkrótce"
+    },
+    "cta": {
+      "title": "Gotowy odkryć muzykę na nowo?",
+      "subtitle": "Dołącz do tysięcy miłośników muzyki, którzy już dzielą się swoimi ulubionymi utworami. Twoja następna ulubiona piosenka czeka.",
+      "button": "Dołącz do Borealise"
+    },
+    "footer": {
+      "copyright": "Borealise. Wszelkie prawa zastrzeżone."
+    }
+  },
+  "sidebar": {
+    "dashboard": "Panel",
+    "explore": "Odkrywaj",
+    "playlists": "Playlisty",
+    "friends": "Znajomi",
+    "shop": "Sklep z awatarami",
+    "settings": "Ustawienia",
+    "logout": "Wyloguj",
+    "expand": "Rozwiń pasek boczny",
+    "room": {
+      "stage": "Scena",
+      "waitlist": "Kolejka",
+      "users": "Użytkownicy",
+      "history": "Historia",
+      "settings": "Ustawienia pokoju"
+    }
+  },
+  "settings": {
+    "tabs": {
+      "account": "Konto",
+      "audio": "Dźwięk",
+      "notifications": "Powiadomienia",
+      "appearance": "Wygląd",
+      "subscription": "Subskrypcja"
+    },
+    "account": {
+      "title": "Ustawienia konta",
+      "username": "Nazwa użytkownika",
+      "usernameHint": "Nazwa użytkownika nie może być zmieniona",
+      "displayName": "Nazwa wyświetlana",
+      "displayNamePlaceholder": "Jak mamy się do Ciebie zwracać?",
+      "email": "E-mail",
+      "emailHint": "Skontaktuj się z pomocą, aby zmienić e-mail",
+      "bio": "Opis",
+      "bioPlaceholder": "Opowiedz nam o sobie...",
+      "saveSuccess": "Profil zaktualizowany pomyślnie",
+      "logout": "Wyloguj się",
+      "logoutConfirm": "Czy na pewno chcesz się wylogować?"
+    },
+    "audio": {
+      "title": "Ustawienia dźwięku",
+      "masterVolume": "Głośność główna",
+      "quality": "Jakość dźwięku",
+      "qualityLow": "Niska (128kbps)",
+      "qualityMedium": "Średnia (256kbps)",
+      "qualityHigh": "Wysoka (320kbps)",
+      "autoPlay": "Automatyczne odtwarzanie przy dołączaniu do pokojów"
+    },
+    "notifications": {
+      "title": "Ustawienia powiadomień",
+      "chatMentions": "Wzmianki na czacie",
+      "mentionSound": "Odtwórz dźwięk przy wzmiance",
+      "songGrabs": "Pobrania utworów",
+      "waitlistUpdates": "Aktualizacje kolejki"
+    },
+    "appearance": {
+      "title": "Wygląd",
+      "showTimestamps": "Pokaż znaczniki czasu na czacie",
+      "enlargedVideo": "Domyślnie powiększony odtwarzacz wideo"
+    },
+    "subscription": {
+      "title": "Borealise Plus",
+      "activePlan": "Aktywny plan",
+      "noPlan": "Brak aktywnej subskrypcji",
+      "monthly": "Miesięczna",
+      "yearly": "Roczna",
+      "yearlyBadge": "Oszczędź 20%",
+      "renewsOn": "Odnawia się {date}",
+      "cancelsOn": "Anuluje się {date}",
+      "upgradeTitle": "Borealise Plus",
+      "upgradeSubtitle": "Odblokuj ekskluzywne awatary, odznakę wspierającego i więcej.",
+      "choosePlan": "Wybierz plan",
+      "paymentTitle": "Dane płatności",
+      "payButton": "Subskrybuj",
+      "manageButton": "Zarządzaj płatnościami",
+      "backToPlan": "Wróć",
+      "perMonth": "/ mies.",
+      "perYear": "/ rok",
+      "loadError": "Nie udało się załadować statusu subskrypcji.",
+      "intentError": "Nie udało się zainicjować płatności. Spróbuj ponownie.",
+      "paymentError": "Płatność nieudana. Sprawdź swoje dane.",
+      "portalError": "Nie udało się otworzyć portalu rozliczeniowego. Spróbuj ponownie.",
+      "perks": {
+        "avatars": "Ekskluzywne awatary premium",
+        "badge": "Odznaka wspierającego na profilu",
+        "future": "Wczesny dostęp do nowych funkcji"
+      }
+    }
+  },
+  "stage": {
+    "waitingForDJ": "Czekam na DJ-a...",
+    "enlargeVideo": "Powiększ wideo",
+    "minimizeVideo": "Zmniejsz wideo"
+  },
+  "chat": {
+    "title": "Czat na żywo",
+    "placeholder": "Wyślij wiadomość...",
+    "mentionUser": "Wspomnij użytkownika",
+    "tabChat": "Czat",
+    "tabWaitlist": "Kolejka",
+    "tabUsers": "Użytkownicy",
+    "empty": "Brak wiadomości. Przywitaj się!",
+    "waitlistEmpty": "Kolejka jest pusta.",
+    "usersEmpty": "Nikt tu jeszcze nie jest.",
+    "nowPlaying": "Teraz gra",
+    "searchEmoji": "Szukaj emoji...",
+    "paused": "Czat wstrzymany — przewiń w dół, aby wznowić"
+  },
+  "dashboard": {
+    "welcome": "Witaj ponownie,",
+    "subtitle": "Gotowy odkryć trochę muzyki?",
+    "exploreRooms": "Odkrywaj pokoje",
+    "createRoom": "Utwórz pokój",
+    "featuredRooms": "Polecane pokoje",
+    "seeAll": "Zobacz wszystko",
+    "yourRooms": "Twoje pokoje",
+    "noRooms": "Nie dołączyłeś jeszcze do żadnego pokoju",
+    "findRooms": "Znajdź pokoje do dołączenia",
+    "recentActivity": "Ostatnia aktywność",
+    "listening": "słucha"
+  },
+  "explore": {
+    "searchPlaceholder": "Szukaj pokojów...",
+    "noRoomsFound": "Nie znaleziono pokojów",
+    "tryDifferentSearch": "Spróbuj innego wyszukiwania lub filtra",
+    "live": "NA ŻYWO",
+    "filters": {
+      "all": "Wszystko",
+      "electronic": "Elektroniczna",
+      "chill": "Chill",
+      "hiphop": "Hip Hop",
+      "rock": "Rock",
+      "pop": "Pop",
+      "lofi": "Lo-Fi",
+      "music": "Muzyka"
+    }
+  },
+  "playlists": {
+    "title": "Moje playlisty",
+    "newPlaylist": "Nowa playlista",
+    "loading": "Ładowanie playlist...",
+    "noPlaylists": "Brak playlist",
+    "createFirst": "Utwórz swoją pierwszą playlistę, aby zacząć dodawać muzykę",
+    "selectPlaylist": "Wybierz playlistę, aby zobaczyć jej zawartość",
+    "songCount": "{count} utworów",
+    "active": "Aktywna",
+    "setActive": "Ustaw jako aktywną",
+    "shuffle": "Losuj",
+    "addSongs": "Dodaj utwory",
+    "import": "Importuj",
+    "searchPlaceholder": "Szukaj na YouTube lub SoundCloud...",
+    "searching": "Szukam...",
+    "noSongs": "Brak utworów na tej playliście",
+    "clickAddSongs": "Kliknij \"Dodaj utwory\", aby wyszukać i dodać muzykę",
+    "noResults": "Nie znaleziono wyników",
+    "unknownArtist": "Nieznany artysta",
+    "createPlaylist": "Utwórz playlistę",
+    "playlistName": "Nazwa playlisty",
+    "playlistNamePlaceholder": "Moja super playlista",
+    "create": "Utwórz",
+    "rename": "Zmień nazwę",
+    "renamePlaylist": "Zmień nazwę playlisty",
+    "newName": "Nowa nazwa",
+    "confirmDelete": "Usunąć \"{name}\"? Tej operacji nie można cofnąć."
+  },
+  "player": {
+    "noPlaylist": "Brak playlisty",
+    "noTracksQueued": "Brak utworów w kolejce",
+    "next": "Następny:",
+    "joinWaitlist": "Dołącz do kolejki",
+    "leaveWaitlist": "Opuść kolejkę",
+    "skip": "Pomiń",
+    "isPlaying": "gra:",
+    "estimatedWait": "Szac. czas: {time}"
+  },
+  "shop": {
+    "title": "Sklep z awatarami",
+    "level": "Poziom",
+    "free": "Darmowy",
+    "unlocked": "Odblokowany",
+    "equipped": "Założony",
+    "clickToUnlock": "Kliknij, aby odblokować",
+    "levelRequired": "Wymagany poziom {level}",
+    "subscriptionRequired": "Wymagana subskrypcja",
+    "freeAvatars": "Darmowe awatary",
+    "freeAvatarsDesc": "Te awatary są dostępne dla wszystkich bez opłat.",
+    "premiumAvatars": "Awatary premium",
+    "premiumAvatarsDesc": "Ekskluzywne awatary dostępne dla subskrybentów.",
+    "unlockTitle": "Odblokuj awatar",
+    "unlockLevelDesc": "Odblokuj {id} osiągając poziom {level}.",
+    "unlockSubDesc": "Odblokuj {id} z aktywną subskrypcją.",
+    "unlock": "Odblokuj",
+    "unlocking": "Odblokowywanie...",
+    "tabs": {
+      "free": "Darmowe",
+      "level": "Poziom",
+      "subscription": "Subskrypcja"
+    }
+  },
+  "roomSettings": {
+    "title": "Ustawienia pokoju",
+    "notHost": "Tylko gospodarz lub współgospodarz może edytować ustawienia pokoju.",
+    "sectionGeneral": "Ogólne",
+    "sectionAccess": "Dostęp",
+    "sectionWaitlist": "Kolejka",
+    "fieldName": "Nazwa pokoju",
+    "fieldNamePlaceholder": "Mój niesamowity pokój",
+    "fieldDescription": "Opis",
+    "fieldDescriptionPlaceholder": "O czym jest twój pokój?",
+    "fieldWelcome": "Wiadomość powitalna",
+    "fieldWelcomePlaceholder": "Witaj w pokoju!",
+    "fieldWelcomeHint": "Wyświetlana użytkownikom po dołączeniu do pokoju.",
+    "fieldMinChatLevel": "Minimalny poziom czatu",
+    "fieldMinChatLevelHint": "Użytkownicy poniżej tego poziomu nie mogą wysyłać wiadomości. Ustaw 0, aby zezwolić wszystkim.",
+    "fieldPrivate": "Prywatny pokój",
+    "fieldPrivateDesc": "Tylko zaproszeni użytkownicy mogą dołączyć.",
+    "fieldNsfw": "Treści NSFW",
+    "fieldNsfwDesc": "Pokój może zawierać treści dla dorosłych.",
+    "fieldWaitlistLocked": "Zablokuj kolejkę",
+    "fieldWaitlistLockedDesc": "Uniemożliwia nowym użytkownikom dołączenie do kolejki DJ.",
+    "fieldWaitlistCycle": "Rotacja kolejki",
+    "fieldWaitlistCycleDesc": "DJ-e są przenoszeni na koniec kolejki po swojej turze.",
+    "saveSuccess": "Ustawienia pokoju zapisane."
+  },
+  "roles": {
+    "host": "Gospodarz",
+    "cohost": "Współgospodarz",
+    "manager": "Menedżer",
+    "bouncer": "Ochroniarz",
+    "residentDJ": "Rezydent DJ",
+    "user": "Użytkownik"
+  },
+  "globalRoles": {
+    "owner": "Właściciel",
+    "admin": "Administrator",
+    "moderator": "Moderator"
+  },
+  "userCard": {
+    "viewProfile": "Zobacz profil",
+    "mention": "Wspomnij",
+    "addFriend": "Dodaj do znajomych",
+    "cancelRequest": "Anuluj zaproszenie",
+    "acceptRequest": "Akceptuj zaproszenie",
+    "removeFriend": "Usuń ze znajomych",
+    "currentlyDJing": "Aktualnie gra",
+    "newSubscriber": "Subskrybent",
+    "subscriber1Month": "Subskrybent od 1 miesiąca",
+    "subscriberNMonths": "Subskrybent od {n} miesięcy"
+  },
+  "friends": {
+    "title": "Znajomi",
+    "search": "Szukaj po nazwie użytkownika...",
+    "noFriends": "Brak znajomych",
+    "noFriendsHint": "Znajdź użytkowników i wyślij im zaproszenie do znajomych!",
+    "pendingRequests": "Oczekujące zaproszenia",
+    "pendingSent": "Wysłane zaproszenia",
+    "noPending": "Brak oczekujących zaproszeń",
+    "accept": "Akceptuj",
+    "decline": "Odrzuć",
+    "cancel": "Anuluj",
+    "remove": "Usuń",
+    "addFriend": "Dodaj do znajomych",
+    "searchPlaceholder": "Znajdź użytkownika po nazwie...",
+    "notFound": "Nie znaleziono użytkownika",
+    "alreadyFriends": "Już jesteś znajomym",
+    "requestSent": "Zaproszenie wysłane",
+    "requestReceived": "Chce być Twoim znajomym"
+  }
+}
