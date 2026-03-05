@@ -7,6 +7,11 @@
     "alpha": {
       "badge": "Alfa Inicial",
       "text": "Borealise está em desenvolvimento inicial. Espere bugs, funcionalidades ausentes e mudanças significativas."
+    },
+    "unverified": {
+      "text": "Seu email não foi verificado.",
+      "action": "Clique aqui para verificar",
+      "resend": "Clique para reenviar email"
     }
   },
   "common": {
@@ -25,6 +30,7 @@
     "home": "Início",
     "login": "Entrar",
     "register": "Registrar",
+    "verify": "Verificar",
     "dashboard": "Painel",
     "explore": "Explorar Salas",
     "room": "Sala",
@@ -65,6 +71,19 @@
       "maxLength": "Deve ter no máximo {max} caracteres",
       "fillAllFields": "Por favor, preencha todos os campos",
       "loginFailed": "Falha no login. Tente novamente."
+    },
+    "verify": {
+      "loading": "Verificando seu email...",
+      "loadingSubtitle": "Aguarde enquanto confirmamos seu endereço de email.",
+      "success": "Email verificado!",
+      "successSubtitle": "Sua conta foi verificada com sucesso. Agora você pode usar todos os recursos do Borealise.",
+      "error": "Falha na verificação",
+      "invalid": "Link inválido",
+      "invalidSubtitle": "Este link de verificação é inválido ou expirou.",
+      "noToken": "Nenhum token de verificação fornecido.",
+      "unexpectedError": "Ocorreu um erro inesperado. Por favor, tente novamente mais tarde.",
+      "buttonGoToLogin": "Ir para login",
+      "buttonCreateAccount": "Criar nova conta"
     }
   },
   "errors": {
@@ -93,6 +112,12 @@
     "AUTH_REGISTRATION_FAILED": "Falha no registro. Tente novamente.",
     "AUTH_LOGIN_FAILED": "Falha no login. Tente novamente.",
     "AUTH_LOGOUT_FAILED": "Falha ao sair. Tente novamente.",
+    "AUTH_EMAIL_NOT_VERIFIED": "Seu endereço de email não foi verificado. Por favor, verifique sua caixa de entrada.",
+    "AUTH_VERIFICATION_TOKEN_INVALID": "Este link de verificação é inválido.",
+    "AUTH_VERIFICATION_TOKEN_EXPIRED": "Este link de verificação expirou. Por favor, solicite um novo.",
+    "AUTH_ALREADY_VERIFIED": "Este email já foi verificado. Por favor, faça login.",
+    "AUTH_VERIFICATION_SEND_FAILED": "Não foi possível enviar o email de verificação. Tente novamente mais tarde.",
+    "AUTH_VERIFICATION_RATE_LIMITED": "Por favor, aguarde antes de solicitar outro email de verificação.",
 
     "USER_NOT_FOUND": "Usuário não encontrado",
     "USER_UPDATE_FAILED": "Falha ao atualizar perfil",
@@ -172,7 +197,9 @@
       "loginSuccess": "Bem-vindo de volta, {username}!",
       "registerSuccess": "Conta criada com sucesso! Bem-vindo ao Borealise.",
       "logoutSuccess": "Você foi desconectado",
-      "sessionExpired": "Sua sessão expirou. Por favor, faça login novamente."
+      "sessionExpired": "Sua sessão expirou. Por favor, faça login novamente.",
+      "verificationEmailSent": "Email de verificação enviado! Verifique sua caixa de entrada.",
+      "verificationSendFailed": "Falha ao enviar email de verificação. Tente novamente mais tarde."
     },
     "room": {
       "joinSuccess": "Entrou em {roomName}",

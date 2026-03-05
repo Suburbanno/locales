@@ -7,6 +7,11 @@
     "alpha": {
       "badge": "Early Alpha",
       "text": "Borealise is in early development. Expect bugs, missing features, and breaking changes."
+    },
+    "unverified": {
+      "text": "Your email is not verified.",
+      "action": "Click here to verify",
+      "resend": "Click to resend email"
     }
   },
   "common": {
@@ -25,6 +30,7 @@
     "home": "Home",
     "login": "Login",
     "register": "Register",
+    "verify": "Verify",
     "dashboard": "Dashboard",
     "explore": "Explore Rooms",
     "room": "Room",
@@ -65,6 +71,19 @@
       "maxLength": "Must be at most {max} characters",
       "fillAllFields": "Please fill in all fields",
       "loginFailed": "Login failed. Please try again."
+    },
+    "verify": {
+      "loading": "Verifying your email...",
+      "loadingSubtitle": "Please wait while we confirm your email address.",
+      "success": "Email verified!",
+      "successSubtitle": "Your account has been successfully verified. You can now use all features of Borealise.",
+      "error": "Verification failed",
+      "invalid": "Invalid Link",
+      "invalidSubtitle": "This verification link is invalid or has expired.",
+      "noToken": "No verification token provided.",
+      "unexpectedError": "An unexpected error occurred. Please try again later.",
+      "buttonGoToLogin": "Go to login",
+      "buttonCreateAccount": "Create new account"
     }
   },
   "errors": {
@@ -93,6 +112,12 @@
     "AUTH_REGISTRATION_FAILED": "Registration failed. Please try again.",
     "AUTH_LOGIN_FAILED": "Login failed. Please try again.",
     "AUTH_LOGOUT_FAILED": "Logout failed. Please try again.",
+    "AUTH_EMAIL_NOT_VERIFIED": "Your email address is not verified. Please check your inbox.",
+    "AUTH_VERIFICATION_TOKEN_INVALID": "This verification link is invalid.",
+    "AUTH_VERIFICATION_TOKEN_EXPIRED": "This verification link has expired. Please request a new one.",
+    "AUTH_ALREADY_VERIFIED": "This email has already been verified. Please log in.",
+    "AUTH_VERIFICATION_SEND_FAILED": "Unable to send verification email. Please try again later.",
+    "AUTH_VERIFICATION_RATE_LIMITED": "Please wait before requesting another verification email.",
 
     "USER_NOT_FOUND": "User not found",
     "USER_UPDATE_FAILED": "Failed to update profile",
@@ -172,7 +197,9 @@
       "loginSuccess": "Welcome back, {username}!",
       "registerSuccess": "Account created successfully! Welcome to Borealise.",
       "logoutSuccess": "You have been logged out",
-      "sessionExpired": "Your session has expired. Please log in again."
+      "sessionExpired": "Your session has expired. Please log in again.",
+      "verificationEmailSent": "Verification email sent! Check your inbox.",
+      "verificationSendFailed": "Failed to send verification email. Please try again later."
     },
     "room": {
       "joinSuccess": "Joined {roomName}",
