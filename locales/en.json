@@ -116,7 +116,7 @@
     "AUTH_EMAIL_NOT_VERIFIED": "Your email address is not verified. Please check your inbox.",
     "AUTH_VERIFICATION_TOKEN_INVALID": "This verification link is invalid.",
     "AUTH_VERIFICATION_TOKEN_EXPIRED": "This verification link has expired. Please request a new one.",
-    "AUTH_ALREADY_VERIFIED": "This email has already been verified. Please log in.",
+    "AUTH_ALREADY_VERIFIED": "This email has already been verified.",
     "AUTH_VERIFICATION_SEND_FAILED": "Unable to send verification email. Please try again later.",
     "AUTH_VERIFICATION_RATE_LIMITED": "Please wait before requesting another verification email.",
 
