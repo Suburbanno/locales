@@ -29,6 +29,7 @@
     "explore": "Odkrywaj pokoje",
     "room": "Pokój",
     "roomSettings": "Ustawienia pokoju",
+    "roomHistory": "Historia utworów",
     "settings": "Ustawienia",
     "shop": "Sklep z awatarami",
     "friends": "Znajomi"
@@ -554,6 +555,18 @@
       "level": "Poziom",
       "subscription": "Subskrypcja"
     }
+  },
+  "roomHistory": {
+    "title": "Historia utworów",
+    "subtitle": "Utwory zagrane w tym pokoju",
+    "empty": "Nie zagrano jeszcze żadnego utworu.",
+    "woots": "{count} wootów",
+    "mehs": "{count} mehów",
+    "grabs": "{count} pobrań",
+    "skipped": "Pominięto",
+    "playedBy": "Zagrał",
+    "loadError": "Nie udało się załadować historii.",
+    "retry": "Spróbuj ponownie"
   },
   "roomSettings": {
     "title": "Ustawienia pokoju",

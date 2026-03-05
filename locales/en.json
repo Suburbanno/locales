@@ -29,6 +29,7 @@
     "explore": "Explore Rooms",
     "room": "Room",
     "roomSettings": "Room Settings",
+    "roomHistory": "Song History",
     "settings": "Settings",
     "shop": "Avatar Shop",
     "friends": "Friends"
@@ -554,6 +555,18 @@
       "level": "Level",
       "subscription": "Subscription"
     }
+  },
+  "roomHistory": {
+    "title": "Song History",
+    "subtitle": "Songs played in this room",
+    "empty": "No songs have been played yet.",
+    "woots": "{count} woots",
+    "mehs": "{count} mehs",
+    "grabs": "{count} grabs",
+    "skipped": "Skipped",
+    "playedBy": "Played by",
+    "loadError": "Failed to load history.",
+    "retry": "Try again"
   },
   "roomSettings": {
     "title": "Room Settings",
