@@ -72,6 +72,9 @@
       "fillAllFields": "Por favor, preencha todos os campos",
       "loginFailed": "Falha no login. Tente novamente."
     },
+    "discord": {
+      "connecting": "Conectando com Discord..."
+    },
     "verify": {
       "loading": "Verificando seu email...",
       "loadingSubtitle": "Aguarde enquanto confirmamos seu endereço de email.",
@@ -119,6 +122,13 @@
     "AUTH_ALREADY_VERIFIED": "Este email já foi verificado.",
     "AUTH_VERIFICATION_SEND_FAILED": "Não foi possível enviar o email de verificação. Tente novamente mais tarde.",
     "AUTH_VERIFICATION_RATE_LIMITED": "Por favor, aguarde antes de solicitar outro email de verificação.",
+
+    "AUTH_DISCORD_EMAIL_EXISTS": "Já existe uma conta com este email. Por favor, faça login e conecte o Discord nas configurações.",
+    "AUTH_DISCORD_ALREADY_CONNECTED": "Esta conta do Discord já está conectada.",
+    "AUTH_DISCORD_NOT_CONNECTED": "Nenhuma conta do Discord está conectada.",
+    "AUTH_DISCORD_ACCOUNT_TAKEN": "Esta conta do Discord já está vinculada a outro usuário.",
+    "AUTH_DISCORD_FAILED": "Autenticação com Discord falhou. Tente novamente.",
+    "AUTH_DISCORD_STATE_INVALID": "Estado OAuth inválido. Tente novamente.",
 
     "USER_NOT_FOUND": "Usuário não encontrado",
     "USER_UPDATE_FAILED": "Falha ao atualizar perfil",
@@ -200,7 +210,9 @@
       "logoutSuccess": "Você foi desconectado",
       "sessionExpired": "Sua sessão expirou. Por favor, faça login novamente.",
       "verificationEmailSent": "Email de verificação enviado! Verifique sua caixa de entrada.",
-      "verificationSendFailed": "Falha ao enviar email de verificação. Tente novamente mais tarde."
+      "verificationSendFailed": "Falha ao enviar email de verificação. Tente novamente mais tarde.",
+      "discordConnected": "Conta do Discord conectada com sucesso!",
+      "discordDisconnected": "Conta do Discord desconectada."
     },
     "room": {
       "joinSuccess": "Entrou em {roomName}",
@@ -360,6 +372,11 @@
       "displayNamePlaceholder": "Como devemos chamá-lo?",
       "email": "Email",
       "emailHint": "Entre em contato com o suporte para alterar seu email",
+      "discord": "Discord",
+      "discordHint": "Conecte sua conta do Discord para fazer login com Discord.",
+      "discordConnect": "Conectar Discord",
+      "discordConnected": "Conectado",
+      "discordDisconnect": "Desconectar",
       "bio": "Bio",
       "bioPlaceholder": "Fale sobre você...",
       "saveSuccess": "Perfil atualizado com sucesso",

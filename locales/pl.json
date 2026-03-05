@@ -72,6 +72,9 @@
       "fillAllFields": "Proszę wypełnić wszystkie pola",
       "loginFailed": "Logowanie nie powiodło się. Spróbuj ponownie."
     },
+    "discord": {
+      "connecting": "Łączenie z Discord..."
+    },
     "verify": {
       "loading": "Weryfikowanie twojego emaila...",
       "loadingSubtitle": "Proszę czekać, potwierdzamy twój adres email.",
@@ -119,6 +122,13 @@
     "AUTH_ALREADY_VERIFIED": "Ten email został już zweryfikowany.",
     "AUTH_VERIFICATION_SEND_FAILED": "Nie udało się wysłać emaila weryfikacyjnego. Spróbuj później.",
     "AUTH_VERIFICATION_RATE_LIMITED": "Proszę poczekać przed żądaniem kolejnego emaila weryfikacyjnego.",
+
+    "AUTH_DISCORD_EMAIL_EXISTS": "Konto z tym adresem e-mail już istnieje. Zaloguj się i połącz Discord w ustawieniach.",
+    "AUTH_DISCORD_ALREADY_CONNECTED": "To konto Discord jest już połączone.",
+    "AUTH_DISCORD_NOT_CONNECTED": "Żadne konto Discord nie jest połączone.",
+    "AUTH_DISCORD_ACCOUNT_TAKEN": "To konto Discord jest już powiązane z innym użytkownikiem.",
+    "AUTH_DISCORD_FAILED": "Uwierzytelnianie Discord nie powiodło się. Spróbuj ponownie.",
+    "AUTH_DISCORD_STATE_INVALID": "Nieprawidłowy stan OAuth. Spróbuj ponownie.",
 
     "USER_NOT_FOUND": "Użytkownik nie został znaleziony",
     "USER_UPDATE_FAILED": "Nie udało się zaktualizować profilu",
@@ -200,7 +210,9 @@
       "logoutSuccess": "Zostałeś wylogowany",
       "sessionExpired": "Twoja sesja wygasła. Zaloguj się ponownie.",
       "verificationEmailSent": "Email weryfikacyjny wysłany! Sprawdź swoją skrzynkę.",
-      "verificationSendFailed": "Nie udało się wysłać emaila weryfikacyjnego. Spróbuj później."
+      "verificationSendFailed": "Nie udało się wysłać emaila weryfikacyjnego. Spróbuj później.",
+      "discordConnected": "Konto Discord połączone pomyślnie!",
+      "discordDisconnected": "Konto Discord odłączone."
     },
     "room": {
       "joinSuccess": "Dołączono do {roomName}",
@@ -426,6 +438,11 @@
       "displayNamePlaceholder": "Jak mamy się do Ciebie zwracać?",
       "email": "E-mail",
       "emailHint": "Skontaktuj się z pomocą, aby zmienić e-mail",
+      "discord": "Discord",
+      "discordHint": "Połącz swoje konto Discord, aby logować się przez Discord.",
+      "discordConnect": "Połącz Discord",
+      "discordConnected": "Połączono",
+      "discordDisconnect": "Rozłącz",
       "bio": "Opis",
       "bioPlaceholder": "Opowiedz nam o sobie...",
       "saveSuccess": "Profil zaktualizowany pomyślnie",

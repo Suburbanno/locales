@@ -72,6 +72,9 @@
       "fillAllFields": "Please fill in all fields",
       "loginFailed": "Login failed. Please try again."
     },
+    "discord": {
+      "connecting": "Connecting with Discord..."
+    },
     "verify": {
       "loading": "Verifying your email...",
       "loadingSubtitle": "Please wait while we confirm your email address.",
@@ -119,6 +122,13 @@
     "AUTH_ALREADY_VERIFIED": "This email has already been verified.",
     "AUTH_VERIFICATION_SEND_FAILED": "Unable to send verification email. Please try again later.",
     "AUTH_VERIFICATION_RATE_LIMITED": "Please wait before requesting another verification email.",
+
+    "AUTH_DISCORD_EMAIL_EXISTS": "An account with this email already exists. Please log in and connect Discord from settings.",
+    "AUTH_DISCORD_ALREADY_CONNECTED": "This Discord account is already connected.",
+    "AUTH_DISCORD_NOT_CONNECTED": "No Discord account is connected.",
+    "AUTH_DISCORD_ACCOUNT_TAKEN": "This Discord account is already linked to another user.",
+    "AUTH_DISCORD_FAILED": "Discord authentication failed. Please try again.",
+    "AUTH_DISCORD_STATE_INVALID": "Invalid OAuth state. Please try again.",
 
     "USER_NOT_FOUND": "User not found",
     "USER_UPDATE_FAILED": "Failed to update profile",
@@ -200,7 +210,9 @@
       "logoutSuccess": "You have been logged out",
       "sessionExpired": "Your session has expired. Please log in again.",
       "verificationEmailSent": "Verification email sent! Check your inbox.",
-      "verificationSendFailed": "Failed to send verification email. Please try again later."
+      "verificationSendFailed": "Failed to send verification email. Please try again later.",
+      "discordConnected": "Discord account connected successfully!",
+      "discordDisconnected": "Discord account disconnected."
     },
     "room": {
       "joinSuccess": "Joined {roomName}",
@@ -360,6 +372,11 @@
       "displayNamePlaceholder": "How should we call you?",
       "email": "Email",
       "emailHint": "Contact support to change your email",
+      "discord": "Discord",
+      "discordHint": "Connect your Discord account to log in with Discord.",
+      "discordConnect": "Connect Discord",
+      "discordConnected": "Connected",
+      "discordDisconnect": "Disconnect",
       "bio": "Bio",
       "bioPlaceholder": "Tell us about yourself...",
       "saveSuccess": "Profile updated successfully",
