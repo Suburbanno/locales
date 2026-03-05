@@ -161,7 +161,7 @@
       "skipHint": "Pule para a próxima música para continuar tocando, ou saia da cabine para deixar outros tocarem."
     },
     "grab": {
-      "title": "Pegar Música",
+      "title": "Adicionar Música",
       "message": "Escolha uma playlist para adicionar esta música:",
       "active": "Ativa"
     }
@@ -554,6 +554,18 @@
       "level": "Nível",
       "subscription": "Assinatura"
     }
+  },
+    "roomHistory": {
+    "title": "Histórico de Músicas",
+    "subtitle": "Músicas tocadas nesta sala",
+    "empty": "Nenhuma música foi tocada ainda.",
+    "woots": "{count} woots",
+    "mehs": "{count} mehs",
+    "grabs": "{count} grabs",
+    "skipped": "Pulada",
+    "playedBy": "Tocada por",
+    "loadError": "Falha ao carregar histórico.",
+    "retry": "Tentar novamente"
   },
   "roomSettings": {
     "title": "Configurações da Sala",
